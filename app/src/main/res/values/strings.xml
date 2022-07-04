@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Smart Medical Assistant</string>
+
+    <string name="enter_number">Enter \nMobile number To Proceed</string>
+    <string name="next">Next</string>
+    <string name="resend_otp_again"><u>Resend OTP</u></string>
+    <string name="no_internet_connection">no_internet_connection</string>
+    <string name="login"><u>Login</u></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="please_wait">Waiting please</string>
+    <string name="find_book"><![CDATA[Find, book & Consult Doctor Through SMA]]></string>
+
+
+</resources>

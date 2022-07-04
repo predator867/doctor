@@ -1,0 +1,92 @@
+{
+  "project_info": {
+    "project_number": "1049688775017",
+    "project_id": "doctor-appointment-c0a05",
+    "storage_bucket": "doctor-appointment-c0a05.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1049688775017:android:7134fc0519c03b6d4405f8",
+        "android_client_info": {
+          "package_name": "dev.enfotrix.patient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1049688775017-5oetunih6qfrl258bndmhnme51abk1lt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dev.enfotrix.patient",
+            "certificate_hash": "2aa13e3a1e32314723eecb7e0ae306658210dbc6"
+          }
+        },
+        {
+          "client_id": "1049688775017-6pihij2teu92tr6dschtjn8eeccgsotj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dev.enfotrix.patient",
+            "certificate_hash": "6fa12ab981e5e11f17c80a4dafa54f0fd3aa5678"
+          }
+        },
+        {
+          "client_id": "1049688775017-km6nh99n9vs8ttd571po73k71sqmtv07.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dev.enfotrix.patient",
+            "certificate_hash": "06dfa4a05cc7d78c244d2463e7f073cd5f514b54"
+          }
+        },
+        {
+          "client_id": "1049688775017-k1dh77sjiv40cvo6f52mpo46pf9iaf2j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2dGEqNnRHng4zqu6NwoxVjOSGxTvK74U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1049688775017-k1dh77sjiv40cvo6f52mpo46pf9iaf2j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1049688775017:android:87057ada24621e704405f8",
+        "android_client_info": {
+          "package_name": "legend.sma.uos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1049688775017-k1dh77sjiv40cvo6f52mpo46pf9iaf2j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2dGEqNnRHng4zqu6NwoxVjOSGxTvK74U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1049688775017-k1dh77sjiv40cvo6f52mpo46pf9iaf2j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

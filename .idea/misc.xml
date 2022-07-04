@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Malik Hassan/AndroidStudioProjects/Doctor/app/src/main/res/drawable-v24/baseline_account_circle_24.xml" value="0.129" />
+        <entry key="..\:/Users/Malik Hassan/AndroidStudioProjects/Doctor/app/src/main/res/drawable-v24/baseline_add_circle_outline_24.xml" value="0.1325" />
+        <entry key="..\:/Users/Malik Hassan/AndroidStudioProjects/Doctor/app/src/main/res/drawable-v24/baseline_arrow_back_24.xml" value="0.2275" />
+        <entry key="..\:/Users/Malik Hassan/AndroidStudioProjects/Doctor/app/src/main/res/drawable-v24/baseline_arrow_forward_ios_24.xml" value="0.164" />
+        <entry key="..\:/Users/Malik Hassan/AndroidStudioProjects/Doctor/app/src/main/res/drawable-v24/baseline_calendar_today_24.xml" value="0.23" />
+        <entry key="..\:/Users/Malik Hassan/AndroidStudioProjects/Doctor/app/src/main/res/drawable-v24/baseline_medical_services_24.xml" value="0.2255" />
+        <entry key="..\:/Users/Malik Hassan/AndroidStudioProjects/Doctor/app/src/main/res/drawable-v24/baseline_qr_code_scanner_24.xml" value="0.164" />
+        <entry key="..\:/Users/Malik Hassan/AndroidStudioProjects/Doctor/app/src/main/res/drawable-v24/baseline_schedule_24.xml" value="0.23" />
+        <entry key="..\:/Users/Malik Hassan/AndroidStudioProjects/Doctor/app/src/main/res/drawable/bottom_bg.xml" value="0.2255" />
+        <entry key="..\:/Users/Malik Hassan/AndroidStudioProjects/Doctor/app/src/main/res/drawable/clickable_text_back.xml" value="0.1375" />
+        <entry key="..\:/Users/Malik Hassan/AndroidStudioProjects/Doctor/app/src/main/res/drawable/custom_button.xml" value="0.2275" />
+        <entry key="..\:/Users/Malik Hassan/AndroidStudioProjects/Doctor/app/src/main/res/drawable/custom_button_like.xml" value="0.1375" />
+        <entry key="..\:/Users/Malik Hassan/AndroidStudioProjects/Doctor/app/src/main/res/drawable/cv_shadow.xml" value="0.2275" />
+        <entry key="..\:/Users/Malik Hassan/AndroidStudioProjects/Doctor/app/src/main/res/drawable/otp_numberbg.xml" value="0.1375" />
+        <entry key="..\:/Users/Malik Hassan/AndroidStudioProjects/Doctor/app/src/main/res/drawable/shadow.xml" value="0.2255" />
+        <entry key="..\:/Users/Malik Hassan/AndroidStudioProjects/Doctor/app/src/main/res/drawable/sv_bg.xml" value="0.2255" />
+        <entry key="..\:/Users/Malik Hassan/AndroidStudioProjects/Doctor/app/src/main/res/drawable/underline.xml" value="0.1525" />
+        <entry key="..\:/Users/Malik Hassan/AndroidStudioProjects/Doctor/app/src/main/res/layout/activity_add_medical_record.xml" value="0.209375" />
+        <entry key="..\:/Users/Malik Hassan/AndroidStudioProjects/Doctor/app/src/main/res/layout/activity_add_medicine.xml" value="0.209375" />
+        <entry key="..\:/Users/Malik Hassan/AndroidStudioProjects/Doctor/app/src/main/res/layout/activity_forget_password_auth.xml" value="0.2" />
+        <entry key="..\:/Users/Malik Hassan/AndroidStudioProjects/Doctor/app/src/main/res/layout/activity_lab_person.xml" value="0.25" />
+        <entry key="..\:/Users/Malik Hassan/AndroidStudioProjects/Doctor/app/src/main/res/layout/activity_lab_person_profile.xml" value="0.209375" />
+        <entry key="..\:/Users/Malik Hassan/AndroidStudioProjects/Doctor/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Users/Malik Hassan/AndroidStudioProjects/Doctor/app/src/main/res/layout/activity_login_with_otp.xml" value="0.2" />
+        <entry key="..\:/Users/Malik Hassan/AndroidStudioProjects/Doctor/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Malik Hassan/AndroidStudioProjects/Doctor/app/src/main/res/layout/activity_otp_verify.xml" value="0.22" />
+        <entry key="..\:/Users/Malik Hassan/AndroidStudioProjects/Doctor/app/src/main/res/layout/activity_pharmacy.xml" value="0.2" />
+        <entry key="..\:/Users/Malik Hassan/AndroidStudioProjects/Doctor/app/src/main/res/layout/activity_qrscanner.xml" value="0.22" />
+        <entry key="..\:/Users/Malik Hassan/AndroidStudioProjects/Doctor/app/src/main/res/layout/activity_reset_password.xml" value="0.33" />
+        <entry key="..\:/Users/Malik Hassan/AndroidStudioProjects/Doctor/app/src/main/res/layout/activity_show_medical_record.xml" value="0.209375" />
+        <entry key="..\:/Users/Malik Hassan/AndroidStudioProjects/Doctor/app/src/main/res/layout/activity_sign_up.xml" value="0.2" />
+        <entry key="..\:/Users/Malik Hassan/AndroidStudioProjects/Doctor/app/src/main/res/layout/activity_splash_screen.xml" value="0.278125" />
+        <entry key="..\:/Users/Malik Hassan/AndroidStudioProjects/Doctor/app/src/main/res/layout/dialog_editname.xml" value="0.209375" />
+        <entry key="..\:/Users/Malik Hassan/AndroidStudioProjects/Doctor/app/src/main/res/layout/dialog_layout_date_picker.xml" value="0.371875" />
+        <entry key="..\:/Users/Malik Hassan/AndroidStudioProjects/Doctor/app/src/main/res/layout/dialog_photo.xml" value="0.371875" />
+        <entry key="..\:/Users/Malik Hassan/AndroidStudioProjects/Doctor/app/src/main/res/layout/fragment__account.xml" value="0.33" />
+        <entry key="..\:/Users/Malik Hassan/AndroidStudioProjects/Doctor/app/src/main/res/layout/fragment__home.xml" value="0.209375" />
+        <entry key="..\:/Users/Malik Hassan/AndroidStudioProjects/Doctor/app/src/main/res/layout/fragment__pharmacy.xml" value="0.2" />
+        <entry key="..\:/Users/Malik Hassan/AndroidStudioProjects/Doctor/app/src/main/res/layout/fragment_booking.xml" value="0.209375" />
+        <entry key="..\:/Users/Malik Hassan/AndroidStudioProjects/Doctor/app/src/main/res/layout/fragment_confirm_booking.xml" value="0.209375" />
+        <entry key="..\:/Users/Malik Hassan/AndroidStudioProjects/Doctor/app/src/main/res/layout/image_slider_layout_item.xml" value="0.278125" />
+        <entry key="..\:/Users/Malik Hassan/AndroidStudioProjects/Doctor/app/src/main/res/layout/list_academy.xml" value="0.2" />
+        <entry key="..\:/Users/Malik Hassan/AndroidStudioProjects/Doctor/app/src/main/res/layout/list_booking.xml" value="0.371875" />
+        <entry key="..\:/Users/Malik Hassan/AndroidStudioProjects/Doctor/app/src/main/res/layout/lottie_dialog.xml" value="0.278125" />
+        <entry key="..\:/Users/Malik Hassan/AndroidStudioProjects/Doctor/app/src/main/res/layout/rv__show_medicine_list.xml" value="0.33" />
+        <entry key="..\:/Users/Malik Hassan/AndroidStudioProjects/Doctor/app/src/main/res/layout/rv_medicine_list.xml" value="0.22" />
+        <entry key="..\:/Users/Malik Hassan/AndroidStudioProjects/Doctor/app/src/main/res/layout/rv_medicine_list_doctor.xml" value="0.371875" />
+        <entry key="..\:/Users/Malik Hassan/AndroidStudioProjects/Doctor/app/src/main/res/menu/bottom_nav.xml" value="0.209375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

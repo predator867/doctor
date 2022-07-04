@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DCDADA"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:background="@color/white"
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:src="@drawable/baseline_arrow_back_24"
+            app:tint="@color/teal_200" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Login with number"
+            android:textColor="@color/teal_200"
+            android:textSize="@dimen/_14ssp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200sdp"
+        android:layout_below="@+id/header"
+        android:background="@color/teal_200">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:text="@string/enter_number"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14ssp" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_300sdp"
+        android:layout_below="@id/toolbar"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_marginTop="-100dp"
+        android:background="@drawable/cv_shadow"
+        android:elevation="@dimen/_20sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:context=".activity.LoginWithOTP">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Login as:"
+                    android:textColor="@color/teal_200"
+                    android:textSize="@dimen/_16ssp" />
+            </LinearLayout>
+
+            <RadioGroup
+                android:id="@+id/radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_16sdp">
+
+                <RadioButton
+                    android:id="@+id/radio_doctor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Doctor"
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/radio_lab"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lab"
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/radio_pharmacy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pharmacy"
+                    android:textColor="@color/black" />
+
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.hbb20.CountryCodePicker
+                        android:id="@+id/country_code"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="bottom|center_horizontal"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginBottom="3dp"
+                        android:layout_weight="3"
+                        android:focusable="true"
+                        android:focusedByDefault="true"
+                        android:gravity="bottom"
+                        app:ccpDialog_allowSearch="true"
+                        app:ccpDialog_background="@color/white"
+                        app:ccpDialog_keyboardAutoPopup="false"
+                        app:ccpDialog_showCloseIcon="false"
+                        app:ccpDialog_showFlag="false"
+                        app:ccpDialog_textColor="@color/colorLogoBlack"
+                        app:ccp_areaCodeDetectedCountry="false"
+                        app:ccp_autoDetectCountry="true"
+                        app:ccp_autoDetectLanguage="true"
+                        app:ccp_showFlag="false"
+                        app:ccp_showFullName="false"
+                        app:ccp_showNameCode="false"
+                        app:ccp_showPhoneCode="true"
+                        app:ccp_textSize="16sp" />
+
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/input_layout_phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@null">
+
+                        <EditText
+                            android:id="@+id/input_phone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:drawableEnd="@drawable/ic_phone_outline"
+                            android:drawableTint="@color/colorLogoBlack"
+                            android:hint="333 3333333"
+                            android:inputType="phone"
+                            android:maxLength="11"
+                            android:textSize="16sp" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:gravity="left"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/send_otp"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/custom_button"
+                        android:gravity="center"
+                        android:paddingLeft="45dp"
+                        android:paddingRight="45dp"
+                        android:text="@string/next"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_14ssp"
+                        android:textStyle="normal" />
+
+                    <ProgressBar
+                        android:id="@+id/progressBar_verify"
+                        style="?android:attr/progressBarStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:visibility="gone" />
+                    <!--                <TextView-->
+                    <!--                    android:id="@+id/timer"-->
+                    <!--                    android:textStyle="normal"-->
+                    <!--                    android:gravity="center"-->
+                    <!--                    android:layout_width="match_parent"-->
+                    <!--                    android:layout_marginTop="20dp"-->
+                    <!--                    android:layout_height="40dp"-->
+                    <!--                    android:layout_marginBottom="20dp"-->
+                    <!--                    android:visibility="gone"-->
+                    <!--                    android:layout_gravity="center"-->
+                    <!--                    android:background="@drawable/custom_button"-->
+                    <!--                    android:text="00:01"-->
+                    <!--                    android:textColor="@color/colorLogoBlack" />-->
+                    <TextView
+                        android:id="@+id/resend_code"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/custom_button"
+                        android:gravity="center"
+                        android:text="@string/next"
+                        android:textColor="@color/colorLogoBlack"
+                        android:textStyle="normal"
+                        android:visibility="gone" />
+
+
+                    <!--                <TextView-->
+                    <!--                    android:textStyle="normal"-->
+                    <!--                    android:layout_marginBottom="10dp"-->
+                    <!--                    android:gravity="center"-->
+                    <!--                    android:paddingLeft="15dp"-->
+                    <!--                    android:paddingRight="15dp"-->
+                    <!--                    android:textColor="@color/colorWhite"-->
+                    <!--                    android:background="@drawable/custom_button_second"-->
+                    <!--                    android:layout_alignParentRight="true"-->
+                    <!--                   -->
+                    <!--                    android:layout_width="match_parent"-->
+                    <!--                    android:layout_height="40dp"-->
+                    <!--                    android:text="@string/create_customer_account" />-->
+                </FrameLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="0dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <RelativeLayout
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_toStartOf="@+id/relativeLayout"
+                        android:layout_toLeftOf="@+id/relativeLayout"
+                        android:layout_weight="1">
+
+                        <View
+                            android:id="@+id/line_divider"
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="#aaaaaa" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/relativeLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/ou_connectez_vous"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Ou connectez-vous avec" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@+id/relativeLayout"
+                        android:layout_toRightOf="@+id/relativeLayout"
+                        android:layout_weight="1">
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="0.5dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="#aaaaaa" />
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>
